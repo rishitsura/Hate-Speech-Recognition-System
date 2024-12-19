@@ -82,8 +82,32 @@ streamlit run app.py
 
 ## Usage
 
-1. Run the project script to preprocess the data, train the model, and launch the Streamlit interface.
-2. Enter a tweet in the Streamlit interface to check if it contains hate speech.
+Before using the Hate Speech Detection system, you must first get the project files onto your local machine. You can either download the repository as a ZIP file or use git to clone it directly:
+
+```bash
+git clone https://github.com/yourgithubusername/hate-speech-recognition.git
+```
+
+Once you have the project files:
+
+1. Navigate to the project directory:
+```bash
+cd hate-speech-recognition
+```
+
+2. Install the required dependencies:
+```bash
+pip install numpy pandas scikit-learn nltk streamlit
+```
+
+3. Launch the Streamlit application to interact with the model:
+```bash
+streamlit run app.py
+```
+
+Navigate to `localhost:8501` in your web browser to use the interface.
+
+Enter a tweet in the Streamlit interface to check if it contains hate speech.
 
 ---
 
